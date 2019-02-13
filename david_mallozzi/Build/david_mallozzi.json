@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "New Unity Project",
+"dataUrl": "david_mallozzi.data.unityweb",
+"asmCodeUrl": "david_mallozzi.asm.code.unityweb",
+"asmMemoryUrl": "david_mallozzi.asm.memory.unityweb",
+"asmFrameworkUrl": "david_mallozzi.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

@@ -1,0 +1,68 @@
+
+/* Animation definitions */
+@keyframes  down{
+  from {background-position: 0 0}
+  to{background-position: 0px 200px}
+}
+
+@keyframes  up{
+  from {background-position: 0 0}
+  to{background-position: 0px -235px}
+}
+
+@keyframes right{
+  from {background-position: 0 0}
+  to{background-position: 250px 0px}
+}
+
+@keyframes left{
+  from {background-position: 0 0}
+  to {background-position: 635px 0px}
+}
+
+/* Class definitions */
+.cyan{
+  height:100px;
+  width:100%;
+  background:url(./download.png);
+  animation:down 1s linear infinite
+}
+
+.checkerboard{
+  height:100px;
+  width:100%;
+  background:url(./checkerboard.jpeg);
+  animation:right 1s linear infinite
+}
+
+.checkerboard2{
+  height:100px;
+  width:100%;
+  background:url(./checkerboard2.png);
+  animation:up 1s linear infinite;
+}
+.checkerboard2{
+  height:100px;
+  width:100%;
+  background:url(./checkerboard2.png);
+  animation:up 1s linear infinite;
+}
+
+ .candycane{
+    height:100px;
+    width:100%;
+    background:url(./checkerboard2.png);
+    animation:up 1s linear infinite;
+  }
+.gif{
+  height:150px;
+  width:100%;
+  background:url(./gif.gif);
+  animation:left 1s linear infinite;
+}
+.checkerboard4{
+  height:150px;
+  width:100%;
+  background:url(./checkerboard4.svg);
+  animation:right 1s linear infinite;
+}

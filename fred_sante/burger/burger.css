@@ -1,0 +1,60 @@
+html, body{
+ height:100% !important;
+}
+
+.topbun{
+  width:200px;
+  height:80px;
+  background-color:sandybrown;
+  position:fixed;
+  left:40vw;
+  border-radius: 100px 100px 20px 20px;
+}
+
+.cheese{
+  width:200px;
+  height:50px;
+  background-color: yellow;
+  position:fixed;
+  left:40vw;
+  top:12vh;
+border-radius: 100px 100px 80px 80px;
+}
+.tomato{
+  width:200px;
+  height:50px;
+  background-color: red;
+  position:fixed;
+  left:40vw;
+  top:18vh;
+    border-radius: 100px 100px 80px 20px;
+}
+.pickle{
+  width:200px;
+  height:50px;
+  background-color: forestgreen;
+  position:fixed;
+  left:40vw;
+  top:24vh;
+    border-radius: 100px 100px 80px 30px;
+}
+.patty{
+  width:200px;
+  height:50px;
+  background-color:saddlebrown;
+  position:fixed;
+  left:40vw;
+  top:30vh;
+  border-radius: 100px 100px 80px 20px;
+}
+
+
+.bottombun{
+  width:200px;
+  height:80px;
+  background-color:sandybrown;
+  position:fixed;
+  left:40vw;
+  top:37vh;
+  border-radius: 20px 20px 100px 100px;
+}

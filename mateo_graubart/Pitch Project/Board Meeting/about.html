@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <link rel="shortcut icon" type="image/png" href="logo.png">
+  <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+     <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+
+     <script
+     src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+     crossorigin="anonymous"></script>
+
+     <!-- Compiled and minified CSS -->
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <script src="about.js"></script>
+
+      <link rel="stylesheet" href="about.css">
+
+     <!-- Compiled and minified JavaScript -->
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="map.html">Map</a></li>
+      <li class="divider"></li>
+      <li><a href="main.html">Home</a></li>
+      <li class="divider"></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <nav id="fixedbar">
+      <div class="nav-wrapper">
+        <a href="main.html" class="brand-logo center" id="logo-pic"><img id="logoPic" src="logo.png"></a>
+        <ul class="left hide-on-med-and-down" id="fixednav">
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">dehaze</i></a></li>
+          <li><a href="map.html">Map</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="main.html">Home</a></li>
+          <!-- <li><a href="profile.html">Profile</a></li> -->
+
+        </ul>
+      </div>
+    </nav>
+
+    <div class="logo-space">
+      <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_TV_2015.svg/1200px-Logo_TV_2015.svg.png"></a>
+    </div>
+    <div class="blankTop">
+    </div>
+  <div class="aboutTitle">
+  <h4>
+    About the Maker
+  </h4>
+</div>
+
+<div class="pageBreak">
+</div>
+
+
+<div class="aboutP1">
+  <h6>
+    Hi! I'm Mateo, and thank you for checking out my site! I put a lot of work into this website, and hope you get some use out of it!
+  </h6>
+</div>
+
+<div class="pageBreak">
+</div>
+
+<div class="thanks1">
+
+  <div class="pageBreak">
+  </div>
+  <h6>Want to contact us? Fill out the form below:</h6>
+  <br>
+  <div class="container">
+  <div id="form1">
+    <form>
+      Name:<br>
+      <div class="col s4 offset-s4">
+      <input id="name" type="text" name="name"><br>
+    </div>
+      Email:<br>
+      <input id="email" type="text" name="e-mail"><br>
+      Phone Number:<br>
+      <input id="phone" type="text" name="phone"><br>
+      Message:<br>
+      <input id="message" type="text" name="message"><br>
+      <input id="submit" type="submit">
+    </form>
+  </div>
+</div>
+
+<div class="pageBreak">
+</div>
+   </body>
+</body>
+</html>

@@ -1,0 +1,171 @@
+.nav-wrapper {
+  color: #dacdcd;
+}
+
+.backgroundImage {
+  background-image: url("https://upwardsleader.files.wordpress.com/2016/04/lbhrhkj.jpg");
+  height: 100vh;
+  /* width: 100vh; */
+}
+.container{
+  width: 100%;
+}
+
+.top{
+  height: 75vh;
+}
+
+.title_box {
+  background: rgba(0,0,0,0.75);
+  color: #dacdcd;
+  padding-right: 70px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200 !important;
+}
+
+.title_box h1{
+  font-weight: 200 !important;
+}
+
+.text_box2 {
+    text-align: center;
+}
+
+button {
+background-color: #ed8d19 !important; /* Green */
+border: none !important;
+color: white !important;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block !important;
+font-size: 16px !important;
+text-transform: uppercase !important;
+}
+#fixedbar {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: rgba(0,0,0,0.75);
+}
+#fixednav {
+  display: block;
+  width: 710px;
+  margin: 0 auto;
+  padding: 0px 25px;
+}
+#fixednav li a {
+  display: block;
+  float: left;
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #dacdcd;
+  line-height: 64px;
+  text-decoration: none;
+  padding: 0px 8px;
+  margin-right: 6px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  font-family: 'Roboto', sans-serif;
+}
+#fixednav li a:hover {
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+.blank-top {
+  height: 200px;
+}
+.bottom {
+  height: 70vh;
+}
+.material-icons {
+  line-height: 70px;
+}
+/* #logo-pic {
+  padding-bottom:
+} */
+.tabledivpp {
+  /* color: #ed8d19; */
+  /* background-color: #ed8d19; */
+  font-family: 'Francois One', sans-serif;
+}
+.tabledivbw {
+  /* color: #ed8d19; */
+  /* background-color: #ed8d19; */
+  font-family: 'Francois One', sans-serif;
+}
+.tabledivchic {
+  /* color: #ed8d19; */
+  /* background-color: #ed8d19; */
+  font-family: 'Francois One', sans-serif;
+}
+.tabledivchoc {
+  /* color: #ed8d19; */
+  /* background-color: #ed8d19; */
+  font-family: 'Francois One', sans-serif;
+}
+.modal-content {
+  font-family: 'Roboto', sans-serif;
+}
+#place-name {
+  font-family: 'Roboto', sans-serif;
+}
+#place-address {
+font-family: 'Roboto', sans-serif;
+}
+
+/* #headerImage::after {
+  content: 'Board Meeting';
+  font-size: 50px;
+  color: white;
+} */
+/*
+.logoStuff {
+  text-align: center;
+}
+
+.logoText {
+  padding-bottom: 50px;
+} */
+.logoPic {
+  height: 80px;
+}
+.modal-trigger {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+#place-name {
+  color: #ed8d19;
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+#place-address {
+  color: #ed8d19;
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+#pp_schedule {
+  color: #ed8d19 !important;
+}
+#bw_schedule {
+  color: #ed8d19 !important;
+}
+#choc_schedule {
+  color: #ed8d19 !important;
+}
+#chic_schedule {
+  color: #ed8d19 !important;
+}
+/* .tablePage {
+  height: 100vh;
+} */
+.underline {
+  background-color: #ed8d19;
+  height: 2px;
+  width: 100vh;
+}

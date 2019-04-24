@@ -1,0 +1,33 @@
+.topbun{background-color: sandybrown;
+height: 100px;
+width: 200px;
+border-radius: 100px 100px 20px 20px;
+ border-bottom: solid 10px rgba(0,0,0,.1);
+}
+.cheese{background-color: goldenrod;
+height: 20px;
+width: 200px;
+border-radius: 4px 4px 4px 4px;
+ border-bottom: soild 10px rgba(0,0,0,.1);
+}
+.patty{background-color: sienna;
+height: 50px;
+width: 200px;
+border-radius: 20px 20px 20px 20px;
+ border-bottom: soild 10px rgba(0,0,0,.1)
+}
+.bottombun{background-color: sandybrown;
+height: 40px;
+width: 200px;
+border-radius: 1px 1px 20px 20px;
+ border-bottom: soild 10px rgba(0,0,0,.1)
+}
+body{
+background-color: grey;
+color:black;
+}
+a{text-decoration: none;
+color:black !important;
+}
+p{color:black}
+s

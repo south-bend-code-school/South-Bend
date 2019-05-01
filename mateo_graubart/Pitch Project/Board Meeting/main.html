@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Board Meeting SB</title>
+  <link rel="shortcut icon" type="image/png" href="logo.png">
+  <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <!-- Fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+     <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="script.js"></script>
+   <link rel="stylesheet" href="style.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+  <div class="backgroundImage">
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a class="dropdownThing" href="map.html">Map</a></li>
+    <!-- <li><a href="#!">Profile</a></li> -->
+    <li class="divider"></li>
+    <li><a class="dropdownThing" href="about.html">About</a></li>
+  </ul>
+  <nav id="fixedbar">
+    <div class="nav-wrapper">
+      <a href="main.html" class="brand-logo center" id="logo-pic"><img src="logo.png" class="logoPic"></a>
+      <ul class="left hide-on-med-and-down" id="fixednav">
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">dehaze</i></a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="about.html">About</a></li>
+        <!-- <li><a href="profile.html">Profile</a></li> -->
+
+      </ul>
+    </div>
+  </nav>
+
+
+
+<div class="logo-space">
+  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_TV_2015.svg/1200px-Logo_TV_2015.svg.png"></a>
+</div>
+<div class="blank-top">
+</div>
+  <div class="container">
+  <div class="top">
+  <div class="title_box">
+<h1>
+Board Meeting
+
+<br>
+
+South Bend</h1>
+<br>
+<h6>A Comprehensive Meeting Tool for Board Game Enthusiasts</h6>
+<br>
+  </div>
+</div>
+</div>
+<!-- <div class="tablePage"> -->
+<div class="bottom">
+<div class="text_box2">
+<table style="width:100%">
+  <tr>
+    <th id="place-name">Name</th>
+    <th id="place-address">Address</th>
+    <th></th>
+
+  </tr>
+<tr>
+
+  <th><a data-target="modal5" class="modal-trigger">Purple Porch Coop</a></th>
+  <th>123 N Hill St</th>
+  <th><button data-target="modal1" class="btn modal-trigger" id="button">Check-In</button></th>
+  <!-- <div class="tabledivpp">
+    <h4>Purple Porch Schedule</h4>
+  <! <th>John - Scrabble - 6:00-6:45</th>
+</div> -->
+</div>
+</tr>
+<tr>
+  <th><a data-target="modal6" class="modal-trigger">Chicory Cafe</a></th>
+  <th>105 E Jefferson Blvd</th>
+  <th><button data-target="modal2" class="btn modal-trigger" id="button">Check-In</button></th>
+  <!-- <div class="tabledivchic">
+    <h4>Chicory Schedule</h4>
+  <! <th>Peg - Risk - 5:45-6:30</th>
+</div> -->
+</tr>
+<tr>
+  <th><a data-target="modal7" class="modal-trigger">South Bend Brew Werks</a></th>
+  <th>216 S Michigan St</th>
+  <th><button data-target="modal3" class="btn modal-trigger" id="button">Check-In</button></th>
+  <!-- <div class="tabledivbw">
+    <h4>Brew Works Schedule</h4>
+  <!- <th>Marvin - Chess - 4:30-5:00</th> -->
+</div>
+</tr>
+<tr>
+  <th><a data-target="modal8" class="modal-trigger">South Bend Chocolate Cafe</a></th>
+  <th>122 S Michigan St</th>
+  <th><button data-target="modal4" class="btn modal-trigger" id="button">Check-In</button></th>
+  <!-- <div class="tabledivchoc">
+    <h4>Chocolate Cafe Schedule</h4>
+  <!- <th>Danny - Connect 4 - 5:20-5:50</th> -->
+</div>
+</tr>
+</table>
+<!-- </div> -->
+<div class="row">
+<div class="col s6">
+<div class="tabledivpp">
+  <h4 id="pp_schedule">Purple Porch Schedule</h4>
+  <div class="underline"></div>
+<!-- <th>John - Scrabble - 6:00-6:45</th> -->
+</div>
+</div>
+
+<div class="col s6">
+<div class="tabledivchic">
+  <h4 id="chic_schedule">Chicory Schedule</h4>
+  <div class="underline"></div>
+<!-- <th>Peg - Risk - 5:45-6:30</th> -->
+</div>
+</div>
+
+<br>
+
+<div class="col s6">
+<div class="tabledivbw">
+  <h4 id="bw_schedule">Brew Works Schedule</h4>
+  <div class="underline"></div>
+<!-- <th>Marvin - Chess - 4:30-5:00</th> -->
+</div>
+</div>
+
+<div class="col s6">
+<div class="tabledivchoc">
+  <h4 id="choc_schedule">Chocolate Cafe Schedule</h4>
+  <div class="underline"></div>
+<!-- <th>Danny - Connect 4 - 5:20-5:50</th> -->
+</div>
+</div>
+</div>
+  <!-- Modal Structure. Put the Stuff for the Popup Here -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Check-In</h4>
+
+          Name:<br>
+          <input type="text" name="firstname" autocomplete="off" id="namepp"><br>
+          Game:<br>
+          <input type="text" name="game" autocomplete="off" id="gamepp"><br>
+          Time:<br>
+          <input type="text" name="time" autocomplete="off" id="timepp"><br>
+          <button class="modal-close submit" value="purplePorch" id="purporch">Submit</button><br>
+
+    </div>
+    <!-- <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div> -->
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Check-In</h4>
+
+          Name:<br>
+          <input type="text" name="firstname" autocomplete="off" id="namecc"><br>
+          Game:<br>
+          <input type="text" name="game" autocomplete="off" id="gamecc"><br>
+          Time:<br>
+          <input type="text" name="time" autocomplete="off" id="timecc"><br>
+          <button class="modal-close submit" value="chicory">Submit</button><br>
+
+    </div>
+    <!-- <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div> -->
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4>Check-In</h4>
+
+          Name:<br>
+          <input type="text" name="firstname" autocomplete="off" id="namebw"><br>
+          Game:<br>
+          <input type="text" name="game" autocomplete="off" id="gamebw"><br>
+          Time:<br>
+          <input type="text" name="time" autocomplete="off" id="timebw"><br>
+          <button  class="modal-close submit" value="brew">Submit</button><br>
+
+    </div>
+    <!-- <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div> -->
+  </div>
+
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h4>Check-In</h4>
+
+          Name:<br>
+          <input type="text" name="firstname" autocomplete="off" id="namechoc"><br>
+          Game:<br>
+          <input type="text" name="game" autocomplete="off" id="gamechoc"><br>
+          Time:<br>
+          <input type="text" name="time" autocomplete="off" id="timechoc"><br>
+          <button class="modal-close submit" value="chocolate">Submit</button><br>
+
+    </div>
+    <!-- <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div> -->
+  </div>
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <h4>Purple Porch Co-op</h4>
+          The Purple Porch Co-op is a local grocery store and co-op in South Bend, Indiana that also hosts a local farmer's market once a week.
+          <br>
+          <br>
+          <button class="modal-close">Close</button><br>
+
+    </div>
+    <!-- <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div> -->
+  </div>
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+      <h4>Chicory Cafe</h4>
+        Chicory Cafe is a New Orleans-themed coffee house that also boasts varied menu of Cajun food.
+          <br>
+          <br>
+          <button class="modal-close">Close</button><br>
+
+    </div>
+    <!-- <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div> -->
+  </div>
+  <div id="modal7" class="modal">
+    <div class="modal-content">
+      <h4>South Bend Brew Werks</h4>
+    South Bend Brew Werks is Downtown South Bend's only family owned and operated brew pub, with a variety of seasonal and staple beers and an accompanying menu of gourmet small plates.
+        <br>
+        <br>
+        <button class="modal-close">Close</button><br>
+
+    </div>
+    <!-- <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div> -->
+  </div>
+  <div id="modal8" class="modal">
+    <div class="modal-content">
+      <h4>South Bend Chocolate Cafe</h4>
+    The South Bend Chocolate Cafe is a cafe and sweet shop specializing in, of course, various types of chocolates.
+          <br>
+          <br>
+          <button class="modal-close">Close</button><br>
+
+    </div>
+    <!-- <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div> -->
+  </div>
+
+</div>
+</div>
+  <!-- <div class="container">
+    <div class="backgroundImage">
+      <div class="title_box">
+
+      </div>
+    </div>
+  </div> -->
+</body>
+</html>

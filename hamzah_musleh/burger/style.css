@@ -1,0 +1,23 @@
+.topbun{
+  background-color: tan;
+  width:1000px;
+  height:200px;
+  border-radius: 100px 100px 20px 20px;
+}
+
+.patty{
+  background-color: brown;
+  width:1000px;
+  height:200px;
+
+}
+
+
+.bottombun{
+  background-color: tan;
+  width:1000px;
+  height:200px;
+  border-radius: 20px 20px 100px 100px;
+
+
+}

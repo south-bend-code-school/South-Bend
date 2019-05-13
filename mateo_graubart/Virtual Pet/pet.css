@@ -1,0 +1,74 @@
+body {
+  align-items: center;
+  background-color: white;
+}
+#petImage {
+  text-align: center;
+}
+
+img {
+  height: 10vh;
+  width: 10vh;
+  text-align: center;
+}
+#mainImage {
+  height: 50vh !important;
+  width: 30vh !important;
+}
+.hud {
+/*  display: grid;
+  grid-row: HUD;
+  grid-template-rows: [icons] 1fr;
+  grid-template-columns: 3, 1fr;
+  grid-gap: 2vh;
+  justify-items:center;
+  width: 98.5vw;*/
+}
+.inputs {
+  grid-row: inputs;
+  margin: 2vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5vw;
+  /* width: 98.5vh; */
+  justify-items: center !important;
+  /* align-self: center; */
+}
+#resetDiv {
+  display: grid;
+  grid-row: reset;
+  margin: 2vh;
+  grid-template-columns: (1, 1fr)
+  align-self: center;
+  justify-items:center;
+}
+.betterImage {
+  height: 50vh !important;
+  width: 30vh !important;
+}
+button {
+  border-radius: 5px;
+  border-width: 1px;
+  width: 5vw;
+  background-color: #039be5;
+  color: white;
+  outline: none;
+}
+#water {
+  text-align: center;
+}
+#food {
+  text-align: center;
+}
+#lift {
+  text-align: center;
+}
+#waterPic {
+  text-align: center;
+}
+#foodPic {
+  text-align: center;
+}
+#liftPic {
+  text-align: center;
+}

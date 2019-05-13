@@ -1,0 +1,22 @@
+
+body{
+  background-color: black;
+color:white;
+font-family: serif;
+font-size: 15px;
+font-variant: small-caps;
+font-style: italic;
+font-weight: bold;
+
+}
+h2{ font-family: cursive;
+font-style: italic;
+font-size: 100px;
+
+}
+
+/*
+img {
+  margin-left: auto;
+}
+*/

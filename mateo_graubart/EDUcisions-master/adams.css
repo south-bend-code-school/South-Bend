@@ -1,0 +1,40 @@
+.mascot-picture {
+  height: 400px;
+  width: 400px;
+}
+img {
+  height: 600px;
+}
+.brand-logo {
+background-image: url("logo.png");
+width: 10%;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+.nav-wrapper {
+  background-color: red;
+}
+#text2{
+  background-color: lightblue;
+}
+#text1{
+  background-color: red;
+}
+#text1{
+  width:1350px;
+  height: 200px;
+}
+#text1{
+  margin-left: 50px;
+}
+#map{
+height:400px;
+  width:1340px;
+}
+#cat{
+  width:1400px;
+}
+#ib {
+  height: 75%;
+}

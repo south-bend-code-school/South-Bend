@@ -1,0 +1,17 @@
+body{
+background-color: black;
+font-family: fantasy;
+color: #990100;
+
+
+}
+
+#ghostleviathan{
+  background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/5647945/e2b2b02828fff11f1cca40779580bb97a95f430c.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  height: 700px;
+  background-position: center;
+  margin-left: 250px;
+}

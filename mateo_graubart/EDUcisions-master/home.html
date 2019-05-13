@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EDUcisions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+  <script type="text/javascript" src="./home.js"></script>
+
+
+</head>
+<body>
+
+  <header>
+
+  <!--Code for a NavBar-->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" ><img class="brand-logo center" src="logo.png" id="logo"></a>
+         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="hide-on-med-and-down">
+          <li><a class='dropdown-button' href='#' data-activates='dropdown1'>High Schools<i class="material-icons left">arrow_drop_down</i></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="home.html">Home</a></li>
+        </ul>
+  <!--When your website is on a mobile device, the following lines of code compress your navbar in a clean way-->
+        <ul class="side-nav" id="mobile-demo">
+         <li class="center white-text"><h4><b>EDUcisions</b></h4></li>
+
+           <ul class="collapsible" data-collapsible="expandable">
+             <li>
+               <div class="collapsible-header"><i> class="material-icons">arrow_drop_down</i>High School</div>
+               <div class="collapsible-body black-text center"><span>Lorem ipsum dolor sit amet.</span></div>
+             </li>
+             <!-- <li>
+               <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Colleges</div>
+               <div class="collapsible-body black-text center"><span>Lorem ipsum dolor sit amet.</span></div>
+             </li> -->
+             <li>
+               <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>About</div>
+               <div class="collapsible-body black-text center"><span>Lorem ipsum dolor sit amet.</span></div>
+             </li>
+           </ul>
+
+       </ul>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="adams.html">Adams HS</a></li>
+    <li><a href="clay.html">Clay HS</a></li>
+    <li><a href="riley.html">Riley HS</a></li>
+    <li><a href="Washington.html">Washington HS</a></li>
+  </ul>
+
+
+<!-- Slider Start-->
+  <div class="carousel carousel-slider center" data-indicators="true">
+   <div class="carousel-item red white-text" href="#one!">
+     <h2>John Adams High School</h2>
+     <img src="http://s3.amazonaws.com/vnn-aws-sites/272/files/2013/04/all.jpg">
+     <p class="white-text">South Bend</p>
+   </div>
+   <div class="carousel-item amber white-text" href="#two!">
+     <h2>James Whitcomb Riley High School</h2>
+     <img src="https://pbs.twimg.com/profile_images/519116513060454401/ICdEaGzq.jpeg">
+     <p class="white-text">South Bend</p>
+   </div>
+   <div class="carousel-item white blue-text" href="#three!">
+     <h2>Saint Joseph High School</h2>
+     <img id="saint">
+     <p class="white-text">South Bend</p>
+   </div>
+   <div class="carousel-item amber white-text" href="#four!">
+     <h2>Clay High School</h2>
+     <img id="clay" src="https://static1.squarespace.com/static/559be5aae4b074eca2346506/55ae5db7e4b0a617842c8cab/5925be51c534a5bc16f5b87e/1495645995942/CHS.png?format=500w">
+     <p class="white-text">South Bend</p>
+   </div>
+ </div>
+<!-- Slider End -->
+
+
+<!-- Title and Search Bar Start -->
+<div class="row search bar title">
+  <div class="col s10 offset-s1 center">
+    <h1>Alphabetical List of Schools</h1>
+  </div>
+</div>
+
+<!-- Title and Search Bar End -->
+
+
+<!-- School List Camisa's Suggestions Start -->
+<div class="row">
+  <div class="col s10 offset-s1">
+
+
+    <div class="row">
+      <div class="col m3 s6 center">
+        <h3 class="orange-text"><b>A</b></h3>
+        <li><a href="adams.html">Adams High School</a></li>
+      </div>
+
+      <div class="col m3 s6 center">
+        <h3 class="orange-text"><b>B</b></h3>
+        <li>Bais Yaakov of Indiana</li>
+      </div>
+
+      <div class="col m3 s6 center">
+        <h3 class="orange-text"><b>C</b></h3>
+        <li>Career Academy of South Bend</li>
+        <li><a href="clay.html">Clay High School</a></li>
+        <li>Community Baptist Christian School</li>
+      </div>
+
+
+  <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>F</b></h3>
+          <li>First Baptist Christian School</li>
+        </div>
+  </div>
+  <div class="row">
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>G</b></h3>
+          <li>Granger Christian School</li>
+        </div>
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>J</b></h3>
+          <li>John Glenn High School</li>
+        </div>
+
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>L</b></h3>
+          <li>Laville Jr-Sr High School</li>
+        </div>
+
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>M</b></h3>
+          <li>Marian High School</li>
+          <li>Mishawaka High School</li>
+        </div>
+</div>
+<div class="row">
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>P</b></h3>
+          <li>Penn High School</li>
+        </div>
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>R</b></h3>
+          <li><a href="riley.html">Riley High School</a></li>
+          <li>Rise Up Academy</li>
+        </div>
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>S</b></h3>
+          <li>Saint Joseph High School</li>
+        </div>
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>T</b></h3>
+          <li>Trinity School at Greenlawn</li>
+        </div>
+</div>
+<div class="row">
+        <div class="col m3 s6 center">
+          <h3 class="orange-text"><b>W</b></h3>
+          <li>Washington High School</li>
+        </div>
+</div>
+
+
+  </div>
+</div>
+<!-- School List Camisa's Suggestions End-->
+
+
+<!-- Original School List -->
+
+<!-- Original School List End -->
+
+
+
+</body>
+</html>

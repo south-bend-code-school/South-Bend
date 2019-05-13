@@ -1,0 +1,107 @@
+body{
+  font-family: 'Yantramanav', sans-serif;
+
+}
+.brand-logo {
+background-image: url("logo.png");
+width: 10%;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+#james {
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 10px;
+  display: block;
+}
+
+.bigger {
+  font-size: 25px !important;
+}
+
+
+}
+
+.nav-wrapper {
+  background-color: #ffc107;
+  height: 500px !important;
+}
+
+.carousel-item {
+  height: 10px !important;
+}
+
+.white-text {
+  font-size: 20px !important;
+}
+
+#text1{
+ color:black;
+ padding: 25px;
+ text-align: center;
+ background-color: #1e88e5;
+ margin-bottom: 20px;
+}
+
+#mission {
+  font-family: 'Ranga', cursive;
+  font-size: 27px;
+  margin-top: -5px;
+}
+
+#rest {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.rest2 {
+  font-size: 20px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#text2{
+  padding:25px;
+  background-color: #ffeb3b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#map{
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: white !important;
+}
+
+#link1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#link2{
+  color: white;
+
+}
+
+#staff{
+  text-align: center;
+}
+
+h6{
+  text-align: center;
+}
+#cat {
+  height: 600px;
+}
+#campus {
+  height: 600px;
+}
+#pltw {
+  height: 600px;
+}
+#robo {
+  height: 600px;
+}

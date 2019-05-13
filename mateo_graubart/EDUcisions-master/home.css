@@ -1,0 +1,87 @@
+body {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+#clay {
+  background-color: purple;
+}
+
+#saint {
+  background-image: url("saintjoe.png");
+  background-color: #64b5f6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nav-wrapper {
+  background-color: Blue;
+}
+
+.dropdown-menu {
+  background-color: orange;
+}
+
+img {
+  width: 10px;
+  height: 500px;
+}
+
+.school-list {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#mobile-demo {
+  background-color: orange;
+}
+.brand-logo {
+background-image: url("logo.png");
+width: 10%;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#mainphoto {
+  background-image: url("team.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 15px;
+}
+
+.individual {
+  width: 25%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#joe {
+  background-image: url("joe.jpg");
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#mateo {
+  background-image: url("mateo.jpg");
+  margin-top: 20px;
+  margin-left: 10px;
+  background-position: top;
+}
+
+#zavion {
+  background-image: url("zavion.jpg");
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.name {
+  margin-left: 5px;
+}
+
+.para {
+  margin-left: 10px;
+}

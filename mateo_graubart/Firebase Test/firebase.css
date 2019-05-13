@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+.form-div {
+  /* display: grid; */
+text-align: center;
+color: darkorange;
+font-size: 7vh;
+}
+
+input {
+  height: 3vh;
+  width: 20vw;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid;
+  border-color: #00bfff;
+}
+button {
+  height: 5vh;
+  width: 17vh;
+  background-color: darkorange;
+  border: 0;
+  color: white;
+  font-size: 3vh;
+}

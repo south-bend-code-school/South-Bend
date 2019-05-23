@@ -1,0 +1,23 @@
+#red {
+  height: 152px;
+  width: 100%;
+  background-color: red;
+}
+
+#blue {
+  height: 152px;
+  width: 100%;
+  background-color: green;
+}
+
+#yellow {
+  height: 152px;
+  width: 100%;
+  background-color: yellow;
+}
+
+#purple {
+  height: 152px;
+  width: 100%;
+  background-color: #e8148c;
+}

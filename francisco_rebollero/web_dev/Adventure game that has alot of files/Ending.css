@@ -1,0 +1,14 @@
+body{
+background-color: white;
+color:purple
+
+
+
+
+}
+h1{white-space: nowrap;
+overflow: hidden;
+animation: anim 4.5s steps(70,end) ;
+margin:0 auto;
+
+}

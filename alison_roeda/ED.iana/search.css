@@ -1,0 +1,47 @@
+
+body {
+background-color: white;
+}
+
+#logo {
+width: 20%;
+margin-left: 40%;}
+
+.searching {
+  margin-top: 6%;
+}
+
+.option {
+    background: linear-gradient(#657082,#232c2d);
+    margin-bottom: 1%;
+    margin-left: 5%;
+    height:100px;
+    width:90%;
+    color: white;
+    vertical-align: middle;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+.schoolname{
+  width:60%;
+  Height: 100%;
+  float:left;
+}
+
+
+.nav-wrapper {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20%;
+}
+.responsive-img {
+  height:150px ;
+  width: 150px;
+}
+
+.location{
+  float:right;
+}

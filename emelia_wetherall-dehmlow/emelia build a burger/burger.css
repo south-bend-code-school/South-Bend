@@ -1,0 +1,40 @@
+.topbun{
+  width:500px;
+  height: 100px;
+  background-color: #b7631f;
+  border-radius: 85px 85px 20px 20px;
+}
+
+.cheese {
+  width: 500px;
+  height: 20px;
+  background-color: #fceb50;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.tomato {
+  width: 500px;
+  height: 45px;
+  background: #ed0202;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.pickle {
+  width: 500px;
+  height: 25px;
+  background-color: #19841e;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.patty {
+  width: 500px;
+  height: 40px;
+  background-color: #8c2005;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.bottombun {
+  width: 500px;
+  height: 75px;
+ background-color: #b7631f;
+  border-radius: 20px 20px 75px 75px;

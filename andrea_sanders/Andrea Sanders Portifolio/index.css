@@ -1,0 +1,17 @@
+body{
+  background-color: pink;
+
+}
+
+.myPic {
+  height: 100vh;
+  width: 50vw;
+  position:fixed;
+  overflow-x: hidden;
+
+}
+
+.main {
+  margin-left: 50vw;
+
+}
